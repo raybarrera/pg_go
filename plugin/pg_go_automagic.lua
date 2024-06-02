@@ -1,4 +1,4 @@
-local embedded_pg = vim.treesitter.parse_query(
+local embedded_pg = vim.treesitter.query.parse(
     "go",
     [[
                 (call_expression
